@@ -84,7 +84,7 @@ fig.add_trace(go.Scattergeo(
 
 fig.update_layout(
     geo=dict(
-        scope="world",
+        scope="north america",
         projection_type="mercator",
         showland=True,
         landcolor="#1a3a5c",
